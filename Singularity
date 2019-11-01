@@ -58,7 +58,6 @@ MAINTAINER Cancan
     # install pysc2
     /opt/conda/bin/pip install --upgrade https://github.com/deepmind/pysc2/archive/master.zip
     /opt/conda/bin/conda install -y --quiet -c anaconda tensorflow-gpu
-    /opt/conda/bin/pip install -r requirements.txt
     mkdir /nobackup
 
 %environment
