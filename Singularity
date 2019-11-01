@@ -1,5 +1,8 @@
 Bootstrap: docker
-From: ubuntu:18.04
+From: ubuntu:16.04
+
+%labels
+MAINTAINER Cancan
 
 %post
 
